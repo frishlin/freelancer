@@ -359,7 +359,11 @@ input[type = "text"]{
   font-size: 20px;
   font-family: "Lato";
 }
-
+/*Botón Send cambia de color al pasar el cursor*/
 #section4 a:hover{
   background-color: #128F76;
+}
+/*Aparece borde al rededor del botón Send al dar clic*/
+#section4 a:focus{
+  border: 3px solid #7FBDFF;
 }
