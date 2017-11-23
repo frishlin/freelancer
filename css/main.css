@@ -42,14 +42,14 @@ header > nav > div{
   position: absolute;
   width: auto;
 }
-/*Primera Sección - fondo verde, definiendo tamaño, funte, fondo*/
+/*+++++++++++++++++++++++++++++++++++++++++SECCIÓN 1+++++++++++++++++++++++++++++++++++++++++++++++*/
+/*START BOOTSTRAP*/
 #section1{
     background-color: #18BC9C;
     color: white;
     font-family: "montserrat";
     height: 770px;
     width: 99.99%;
-
 }
 /*Sección de fondo verde, letras START BOOTSTRAP*/
 #section1 > h1{
@@ -94,7 +94,8 @@ header > nav > div{
   font-weight: 400;
   margin-top: 1.5px;
 }
-/*Segunda sección - PORTFOLIO*/
+/*+++++++++++++++++++++++++++++++++++++++++SECCIÓN 2+++++++++++++++++++++++++++++++++++++++++++++++*/
+/*PORTFOLIO*/
 #section2{
   position: absolute;
   background-color: white;
@@ -131,7 +132,6 @@ header > nav > div{
   position: absolute;
   margin-left: -17px;
   top:170px;
-
 }
 /*Espacio entre imágenes sección PORTFOLIO*/
 #section2 > img{
@@ -163,8 +163,8 @@ header > nav > div{
   margin-left: 547px;
   margin-top: 202px;
 }
-
-/*Tercera sección - ABOUT*/
+/*+++++++++++++++++++++++++++++++++++++++++SECCIÓN 3+++++++++++++++++++++++++++++++++++++++++++++++*/
+/*ABOUT*/
 #section3 {
   background-color: #18BC9C;
   color: white;
@@ -249,4 +249,100 @@ header > nav > div{
   width: 345px;
   height: 173px;
   vertical-align: middle;
+}
+/*+++++++++++++++++++++++++++++++++++++++++SECCIÓN 4+++++++++++++++++++++++++++++++++++++++++++++++*/
+/*CONTACT ME*/
+#section4{
+  height:800px;
+  position: absolute;
+  width: 99.99%;
+  text-align: center;
+  top:600px;
+}
+#section4 > div{
+  color: #2C3E50;
+}
+/*Letras CONTACT ME*/
+#section4 h1{
+  font-family: "Montserrat";
+  color: #2C3E50;
+  font-size:48px;
+  text-align: center;
+  margin-top: 91px;
+}
+/*Primera línea CONTACT ME*/
+#section4 hr{
+  color: #2C3E50;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: absolute;
+  width: 93px;
+  margin-left: -118px;
+  top: 173px;
+}
+/*Segunda línea CONTACT ME*/
+#section4 .line{
+  display: inline-block;
+  position: absolute;
+  width: 101px;
+  margin-left: 20px;
+}
+/*Estrella CONTACT ME*/
+#section4 i{
+  display: inline-block;
+  position: absolute;
+  margin-left: -15px;
+  top:165px;
+}
+/*Posición del Formulario*/
+.form{
+  margin-top: 81px;
+  margin-left: -475px;
+}
+/*Color de letras placeholder*/
+::placeholder{
+    color: #868e96;
+    font-family: "Lato";
+}
+/*Linea1 formulario*/
+#section4 .hr1{
+  background-color: #e9ecef;
+  top:321px;
+  left: 427px;
+  border:0;
+  width: 730px;
+}
+/*Linea2 formulario*/
+#section4 .hr2{
+  background-color: #e9ecef;
+  top:418px;
+  left: 427px;
+  border:0;
+  width: 730px;
+}
+/*Linea3 formulario*/
+#section4 .hr3{
+  background-color: #e9ecef;
+  top:518px;
+  left: 427px;
+  border:0;
+  width: 730px;
+}
+/*Linea4 formulario*/
+#section4 .hr4{
+  background-color: #e9ecef;
+  top:618px;
+  left: 427px;
+  border:0;
+  width: 730px;
+}
+/*Ingreso de datos al formulario*/
+input[type = "text"]{
+  color: black;
+  border: 0;
+  outline: 0;
+  font-size: 23.5px;
+  font-family: "Lato";
+  text-align: left;
+  padding: 35.1px;
 }
