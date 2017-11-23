@@ -182,18 +182,18 @@ section > article{
   background-color: #18BC9C;
   color: white;
   font-family: "Montserrat";
-  height:650px;
+  height:600px;
   position: absolute;
   top: 919px;
   width: 99.9%;
   text-align: center;
 }
-
+/*Configuración palabra ABOUT*/
 #section3 h1{
   margin-top: 86px;
-  font-size: 47px;
+  font-size: 47.5px;
 }
-
+/*Posición y tamaño de la primer línea del ABOUT*/
 #section3 hr{
   display: inline-block;
   position: absolute;
@@ -201,54 +201,65 @@ section > article{
   margin-left: -123px;
   top: 165px;
 }
-
+/*Posición y tamaño de la segunda línea del ABOUT*/
 #section3 .line{
   display: inline-block;
   position: absolute;
   width: 101px;
   margin-left: 20px;
 }
-
+/*Posición estrella del ABOUT*/
 #section3 i{
-
   position: absolute;
   margin-left: -17px;
   top:158px;
 }
-
+/*Configuración del borde del botón de Download Now!*/
+#button{
+  display: inline-block;
+  padding-left: 35px;
+  margin-left: -35px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/*Configuración y posición del botón Download Now!*/
 #button > a{
   display: inline-block;
-  font-family: "lato";
-  top: 460px;
+  font-family: "Montserrat";
+  font-weight: 500;
   font-size: 19px;
-  margin-left: -10px;
+  top: 460px;
+  width: auto;
+  height: auto;
+  left: 550px;
+  right: 20px;
+  line-height: 30px;
 }
-
-#button{
-  /*display: inline-block;
-  line-height: 40px;
-  margin-left: 20px;
-  border-radius: 3px;
-  */
+/*Medidas y posición de icono de descarga*/
+#button > a > i{
+    display: inline-block;
+    top: 458px;
+    left: 580px;
 }
-
-#button i{
-  display: inline-block;
-  margin-left: 20px;
-  top: 462px;
-}
-
-#button > a:hover{
+/*Fondo blanco boton Download Now! al pasar el mouse*/
+#button:hover{
   background-color: white;
+}
+/*Letras negras botón Download Now! al pasar el mouse*/
+#button > a:hover{
   color: black;
 }
+/*Alineación de columnas del ABOUT*/
 .paragraph1, .paragraph2{
   display: inline-block;
   font-family: "Lato";
-  font-size: 20px;
+  font-size: 19px;
+  margin-top: auto;
   line-height: 32px;
   padding: 15px;
   text-align: left;
   width: 345px;
   height: 173px;
+  vertical-align: middle;
 }
