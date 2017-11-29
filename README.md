@@ -4,7 +4,7 @@ Las fuentes utilizadas serán _Montserrat_ para los títulos y letras grandes y 
 
 ## HEADER
 
-Sitio Web que contiene un menú estático con las opciones: PORTAFOLIO, ABOUT y CONTACT.
+Sitio Web que contiene un menú estático con las opciones: PORTAFOLIO, ABOUT y CONTACT, alineados a la derecha.
 
 Al dar clic sobre cada opción del menú:
 1. Se deberá dirigir a la sección que le corresponde dentro de la misma página.
@@ -16,6 +16,8 @@ Debajo del menú, aparecerá una sección con fondo #18BC9C y una imagen al cent
 El texto estará separado por una estrella y una línea en ambos laterales.
 
 Tanto el texto como las líneas y la estrella son de color blanco.
+
+También contendrá el logo _START BOOTSTRAP_ alineado a la izquierda, el cual, al hacer clic, llevará al inicio de la página.
 
 ## Sección PORTAFOLIO
 
