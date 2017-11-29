@@ -1,12 +1,8 @@
 # Freelancer
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+Las fuentes utilizadas serán _Montserrat_ para los títulos y letras grandes y el resto del texto será _Lato_
 
-***
-
-## Encabezado
+## HEADER
 
 Sitio Web que contiene un menú estático con las opciones: PORTAFOLIO, ABOUT y CONTACT.
 
