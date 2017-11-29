@@ -6,75 +6,62 @@
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+## Encabezado
 
-## Flujo de trabajo
+Sitio Web que contiene un menú estático con las opciones: PORTAFOLIO, ABOUT y CONTACT.
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+Al dar clic sobre cada opción del menú:
+1. Se deberá dirigir a la sección que le corresponde dentro de la misma página.
+2. Al pasar el puntero sobre el nombre de cada menú, las letras cambiarán a un color #28A097.
+3. Al presionar cada una de las opciones de menú, el texto cambiará de color a blanco y aparecerá un fondo color #18BC9C debajo de   ellas.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
+Debajo del menú, aparecerá una sección con fondo #18BC9C y una imagen al centro, junto con un texto grande _"START BOOTSTRAP"_ y un texto pequeño _"Web Developer - Graphic Artist - User Experience Designer"_
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+El texto estará separado por una estrella y una línea en ambos laterales.
 
-## Objetivo
+Tanto el texto como las líneas y la estrella son de color blanco.
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
-a lograr:
+## Sección PORTAFOLIO
 
-![Freelancer Website](docs/fullpage.png)
+Esta sección contiene 6 imágenes separadas tanto vertical como horizontalmente.
 
-## Consideraciones
+Su título es color negro, al igual que la estrella y las líneas.
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+## Sección About
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto.
+Esta sección contiene 2 columnas con texto, así como un botón y un ícono de descarga, el cual por cuestiones prácticas, al dar clic sólo llevará al inicio.
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+Al pasar el mouse sobre el botón, el texto cambiará a color negro y el fondo a blanco.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+El título, las líneas y la estrella van de color blanco.
 
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
+## Sección CONTACT ME
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes: `#2c3e50`, `#18bc9c`,
-  `#212529`.
+Esta sección contiene un formulario con las opciones:
+* Name
+* Email Adress
+* Phone Number
+* Message
 
-* Los íconos de redes sociales puedes obtenerlos de [Font Awesome](http://fontawesome.io/).
+Al hacer clic sobre cada uno de los elementos solicitados, desaparecerá el título y se sobreescribirá por lo digitado por el usuario.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios). No te preocupes, estamos seguros que lo afrontarás con
-  éxito, de igual forma aquí unos tips:
+Además, cada elemento contiene una línea horizontal debajo de él, y existe un botón llamado _Send_ de color de fondo #128F76 y letras blancas, el cual, al pasarle el puntero cambiará el fondo a un verde más intenso #128F76 y al hacer clic sobre él, resaltará un borde en un tono azul #7FBDFF
 
-  - Para el formulario, revisa las etiquetas como `form`, `input`, `button`.
+El título, las líneas y la estrella irán de color negro.
 
-* El subrayado que incluye la estrella en las diversas secciones del sitio, en
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
-  es un reto entretenido, sin embargo, no trates de enfocarte en esa parte desde
-  un inicio ya que no es el objetivo principal del reto :)
+## Sección FOOTER
 
-* Puedes ver el [sitio original](https://blackrockdigital.github.io/startbootstrap-freelancer/)
-  para que te des una idea de como debe quedar.
+Esta sección contendrá 3 columnas:
 
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
+1. La primer columna contendrá el título _LOCATION_ y un texto debajo de éste con el siguiente contenido: _2215 John Daniel Drive
+Clark, MO 65243_ en dos renglones.
 
-## A tener en cuenta
+2. La segunda columna contendrá el título _AROUND THE WEB_ y debajo, 5 íconos de redes sociales: facebook, Google+, Twitter, Linkedin y Dribbble, cada uno encerrado en un círculo y los cuales por cuestiones prácticas, al dar clic, se dirigirán al inicio de la página.
 
-Este reto será evaluado sobre lo siguiente:
+Cada botón al pasar el mouse sobre él, cambiará el texto a negro y el fondo a blanco, y al hacer clic, resaltará un borde color gris.  
 
-* Pixel perfect (replicar el diseño con exactitud)
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+  3. La tercer columna contendrá el título _ABOUT FREELANCER_ y debajo el contenido _Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap._, en donde la frase _Start Bootstrap_, contendrá un vínculo que redirigirá hacia el sitio web _https://startbootstrap.com/_, cuyo color será #128F76.
+
+  El fondo será un color #2C3E50 y las letras blancas.
+
+  Finalmente, contendrá el enunciado _Copyright © Your Website 2017_, el cual deberá estar centrado tanto vertical como horizontalmente, su color de fondo será #1A252F y las letras blancas.
