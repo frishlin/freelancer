@@ -1,4 +1,4 @@
-Enlace: https://github.com/frishlin/freelancer/settings/pages
+Enlace: https://frishlin.github.io/freelancer/
 
 # Freelancer
 
